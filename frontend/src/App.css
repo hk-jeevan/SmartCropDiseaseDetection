@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #e8f5e9, #ffffff);
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+/* Upload Box */
+.upload-box {
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px dashed #388e3c;
+  border-radius: 15px;
+  width: 320px;
+  background-color: #f9fff9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-box button {
+  margin-top: 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-box button:hover {
+  background-color: #388e3c;
+}
+
+/* Result Box */
+.result-box {
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #f1f8e9;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 60%;
+}
+
+.result-image {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 2px solid #4caf50;
+}
+
+.result-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1b5e20;
+  margin-top: 20px;
+}
