@@ -5,7 +5,7 @@ import PredictionResult from "./components/PredictionResult";
 import "./App.css";
 
 function App() {
-  const [result, setResult] = useState("");
+  const [result, setResult] = useState(null);
   const [image, setImage] = useState(null);
 
   return (

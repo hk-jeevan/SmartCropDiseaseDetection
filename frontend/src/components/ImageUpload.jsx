@@ -5,7 +5,6 @@ function ImageUpload({ onResult, onImageSelect }) {
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  // when user selects file
   const handleFileChange = (e) => {
     const selected = e.target.files[0];
     if (selected) {
@@ -14,7 +13,6 @@ function ImageUpload({ onResult, onImageSelect }) {
     }
   };
 
-  // when user clicks upload
   const handleUpload = async () => {
     if (!file) {
       alert("Please select an image first!");
@@ -29,10 +27,14 @@ function ImageUpload({ onResult, onImageSelect }) {
       const response = await axios.post("http://127.0.0.1:5000/predict", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
+
+      console.log("✅ Server response:", response.data);
+      // Backend sends { prediction: {...} }
       onResult(response.data.prediction);
     } catch (error) {
-      console.error(error);
-      alert("Error connecting to Flask backend.");
+      console.error("❌ Upload Error:", error);
+      const msg = error.response?.data?.error || error.message || "Error connecting to backend.";
+      alert(msg);
     } finally {
       setLoading(false);
     }
@@ -43,7 +45,6 @@ function ImageUpload({ onResult, onImageSelect }) {
       <input type="file" accept="image/*" onChange={handleFileChange} />
       <br />
 
-      {/* 🖼️ Show preview if file is selected */}
       {file && (
         <div style={{ marginTop: "15px" }}>
           <img

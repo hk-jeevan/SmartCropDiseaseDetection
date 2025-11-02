@@ -12,10 +12,35 @@ function PredictionResult({ result, image }) {
           src={URL.createObjectURL(image)}
           alt="Uploaded Crop"
           className="result-image"
+          style={{
+            width: "250px",
+            height: "250px",
+            objectFit: "cover",
+            borderRadius: "10px",
+            marginBottom: "15px",
+          }}
         />
       )}
 
-      <p className="result-text">{result}</p>
+      <div className="result-content">
+        <h3>🌿 Disease: {result.label}</h3>
+        <p>
+          <strong>Confidence:</strong> {result.confidence}%
+        </p>
+
+        {result.details && (
+          <>
+            <p>
+              <strong>Description:</strong>{" "}
+              {result.details.description || "No description available"}
+            </p>
+            <p>
+              <strong>Solution:</strong>{" "}
+              {result.details.solution || "No solution available"}
+            </p>
+          </>
+        )}
+      </div>
     </div>
   );
 }

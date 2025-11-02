@@ -1,0 +1,131 @@
+{
+    "Apple___Apple_scab": {
+      "description": "A fungal disease caused by Venturia inaequalis that affects apple leaves and fruit, creating dark, scabby lesions.",
+      "solution": "Prune and remove infected leaves and fruits. Apply fungicides containing captan, mancozeb, or sulfur at early growth stages."
+    },
+    "Apple___Black_rot": {
+      "description": "Caused by the fungus Botryosphaeria obtusa, this disease leads to rotting fruit and cankers on twigs and branches.",
+      "solution": "Remove infected fruit and twigs. Apply copper-based fungicides during early spring."
+    },
+    "Apple___Cedar_apple_rust": {
+      "description": "A fungal infection that causes yellow-orange spots on leaves, transmitted between apple and cedar trees.",
+      "solution": "Remove nearby cedar trees if possible. Use fungicides like myclobutanil or propiconazole early in the season."
+    },
+    "Apple___healthy": {
+      "description": "Apple plant appears healthy with no visible disease symptoms.",
+      "solution": "Maintain regular pruning, watering, and balanced fertilization to ensure long-term health."
+    },
+    "Blueberry___healthy": {
+      "description": "No visible signs of disease on the blueberry plant.",
+      "solution": "Maintain acidic soil (pH 4.5–5.5), proper mulching, and watering."
+    },
+    "Cherry_(including_sour)___healthy": {
+      "description": "Cherry plant shows healthy growth without infection.",
+      "solution": "Ensure good drainage and avoid overhead watering to prevent fungal growth."
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+      "description": "Fungal infection causing white powdery growth on leaves and fruits.",
+      "solution": "Apply sulfur or neem oil sprays. Improve air circulation by pruning dense branches."
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+      "description": "Caused by Cercospora species, it forms rectangular gray lesions on leaves reducing photosynthesis.",
+      "solution": "Use resistant hybrids, rotate crops, and apply strobilurin fungicides."
+    },
+    "Corn_(maize)___Common_rust_": {
+      "description": "Fungal infection that produces reddish-brown pustules on corn leaves.",
+      "solution": "Plant resistant varieties and apply fungicides like tebuconazole or azoxystrobin."
+    },
+    "Corn_(maize)___healthy": {
+      "description": "Corn plant is healthy with green leaves and no infection.",
+      "solution": "Maintain proper spacing and nitrogen levels to avoid diseases."
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+      "description": "Caused by Exserohilum turcicum fungus, leading to long, elliptical gray-green lesions.",
+      "solution": "Use resistant varieties and practice crop rotation. Apply fungicides at early tasseling."
+    },
+    "Grape___Black_rot": {
+      "description": "A fungal disease that causes black lesions on leaves and rotting of grapes.",
+      "solution": "Remove mummified fruit and prune infected vines. Apply mancozeb or myclobutanil sprays."
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "description": "A complex disease affecting grapevine wood, causing tiger-striped leaves and black spots on fruit.",
+      "solution": "Remove infected vines and avoid pruning during wet weather. Apply sodium arsenite substitutes where allowed."
+    },
+    "Grape___healthy": {
+      "description": "Healthy grapevine without signs of disease.",
+      "solution": "Maintain balanced irrigation and proper pruning for airflow."
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "description": "Fungal leaf disease causing angular brown spots leading to defoliation.",
+      "solution": "Spray with fungicides like chlorothalonil or copper oxychloride."
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+      "description": "Serious bacterial disease caused by Candidatus Liberibacter species, spread by psyllid insects.",
+      "solution": "Remove and destroy infected trees. Control psyllids with imidacloprid. Use disease-free saplings."
+    },
+    "Peach___Bacterial_spot": {
+      "description": "Caused by Xanthomonas campestris, leading to dark spots on leaves and fruits.",
+      "solution": "Apply copper sprays. Avoid overhead watering and prune infected branches."
+    },
+    "Peach___healthy": {
+      "description": "Peach plant shows healthy leaves and fruits.",
+      "solution": "Ensure proper irrigation, pruning, and balanced fertilization."
+    },
+    "Pepper,_bell___Bacterial_spot": {
+      "description": "Caused by Xanthomonas species, creating small, dark, water-soaked spots on leaves.",
+      "solution": "Use disease-free seeds and apply copper-based fungicides."
+    },
+    "Pepper,_bell___healthy": {
+      "description": "Bell pepper plant is healthy and disease-free.",
+      "solution": "Maintain crop rotation and avoid wet leaf surfaces."
+    },
+    "Potato___Early_blight": {
+      "description": "Caused by Alternaria solani, resulting in concentric dark rings on leaves.",
+      "solution": "Apply fungicides like mancozeb or chlorothalonil and remove infected leaves."
+    },
+    "Potato___healthy": {
+      "description": "Potato plant with green, intact leaves and no disease symptoms.",
+      "solution": "Avoid waterlogging and maintain soil health with compost or organic matter."
+    },
+    "Potato___Late_blight": {
+      "description": "Caused by Phytophthora infestans, the same pathogen behind the Irish potato famine, leading to leaf rot.",
+      "solution": "Apply fungicides like metalaxyl or cymoxanil. Avoid overhead watering."
+    },
+    "Raspberry___healthy": {
+      "description": "Raspberry plant appears healthy and vigorous.",
+      "solution": "Keep rows weed-free and ensure good airflow to prevent fungal issues."
+    },
+    "Soybean___healthy": {
+      "description": "Soybean plant shows no signs of fungal or bacterial infection.",
+      "solution": "Rotate crops annually and monitor for rust or blight symptoms."
+    },
+    "Squash___Powdery_mildew": {
+      "description": "White powdery fungus covering leaves, reducing photosynthesis.",
+      "solution": "Apply sulfur dust or potassium bicarbonate sprays and increase spacing."
+    },
+    "Strawberry___healthy": {
+      "description": "Strawberry plant is free from fungal or bacterial infections.",
+      "solution": "Avoid excessive moisture and remove old mulch after harvest."
+    },
+    "Strawberry___Leaf_scorch": {
+      "description": "Fungal infection causing reddish-purple spots that merge and dry leaf margins.",
+      "solution": "Use fungicides like captan and remove old leaves after fruiting."
+    },
+    "Tomato___Bacterial_spot": {
+      "description": "Caused by Xanthomonas campestris, this leads to small, dark leaf spots and fruit blemishes.",
+      "solution": "Use copper-based sprays and avoid working with wet plants."
+    },
+    "Tomato___Early_blight": {
+      "description": "Fungal disease caused by Alternaria solani, causing concentric brown leaf spots.",
+      "solution": "Apply fungicides regularly and rotate crops every 2–3 years."
+    },
+    "Tomato___healthy": {
+      "description": "Tomato plant is healthy and free from visible infections.",
+      "solution": "Provide balanced fertilizer, adequate sunlight, and watering at the base."
+    },
+    "Tomato___Late_blight": {
+      "description": "Caused by Phytophthora infestans, leading to rapid leaf decay and fruit rot.",
+      "solution": "Use resistant varieties and spray fungicides containing chlorothalonil or copper sulfate."
+    }
+  }
+  

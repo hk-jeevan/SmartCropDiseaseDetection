@@ -4,14 +4,16 @@ import os
 from predict import predict_disease
 
 app = Flask(__name__)
-CORS(app)  # allows frontend (React) to connect
+CORS(app)  # Allow frontend connection (React, etc.)
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+
 @app.route("/")
 def home():
     return "🌱 Smart Crop Disease Detection Backend Running!"
+
 
 @app.route("/predict", methods=["POST"])
 def predict():
@@ -23,15 +25,19 @@ def predict():
     file.save(file_path)
 
     try:
-        predicted_class, confidence = predict_disease(file_path)
-        return jsonify({
-            "prediction": predicted_class,
-            "confidence": round(confidence * 100, 2)
-        })
+        result = predict_disease(file_path)
+        # ✅ Wrap result so frontend can access as response.data.prediction
+        return jsonify({"prediction": result})
     except Exception as e:
+        import traceback
+        print("❌ Error during prediction:", e)
+        traceback.print_exc()
         return jsonify({"error": str(e)}), 500
     finally:
-        os.remove(file_path)
+        # Clean up uploaded file
+        if os.path.exists(file_path):
+            os.remove(file_path)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
